@@ -1,9 +1,9 @@
 ## Joystick driver for FMSPIC RC Transmitter Adapter
 
 This is a joystick driver for an RC transmitter connected to a serial
-port via a 9600 baud "FMS PIC" adapter cable.  [It was developed using
+port via a 9600 baud "FMS PIC" adapter cable.  It was developed using
 3.3 and 3.5 kernels, but seems to work fine with 4.9.x and probably
-isn't too version-specific.]  I use it with both the crrcsim RC
+isn't too version-specific.  I use it with both the crrcsim RC
 airplane flight simulator, and the Heli-X RC helicopter flight
 simulator. It provides a standard joystick device and should be usable
 with any application that uses the normal joystick API.
