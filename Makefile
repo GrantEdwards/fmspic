@@ -8,7 +8,7 @@ all:
 modules: fmspic.o
 
 insert:
-	-(lsmod | grep -q fmspic) && sudo rmmod fmspic
+	if lsmod | grep -q fmspic; then sudo rmmod fmspic; fi
 	sudo insmod ./fmspic.ko
 
 remove:
