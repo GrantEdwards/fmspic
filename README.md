@@ -6,7 +6,7 @@ port via a 9600 baud "FMS PIC" adapter cable.  It was developed using
 isn't too version-specific.
 
 I use it with both the crrcsim RC airplane flight simulator, and the
-Heli-X RC helicopter/airplane flight simulator. It provides a standard
+Heli-X RC helicopter and airplane flight simulator. It provides a standard
 joystick device and should be usable with any application that uses the
 normal joystick API.
 
