@@ -40,4 +40,5 @@ and also also provides these make targets:
 
 `make attach` runs the "inputattach" command to connect to the serial
 port specified by the SERPORT variable (default /dev/ttyUSB0) to the
-fmspic module.  On Gentoo, this provided by the games-util/joystick.
+fmspic module.  On Gentoo, this provided by the games-util/joystick
+package.
